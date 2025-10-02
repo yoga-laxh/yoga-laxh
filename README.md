@@ -104,21 +104,69 @@ MS in Computer Science @ Clarkson (May 2025). I build data/ML and systems softwa
 
 ---
 
-<!-- Metrics (optional) -->
-<h2 align="left">Metrics</h2>
+<!-- 🎨 Visual Snapshot (inline SVG, no external service) -->
+<h2 align="left">Visual snapshot</h2>
 
-<p>
-  <img alt="Streak" src="https://streak-stats.demolab.com?user=yoga-laxh" />
-</p>
-<p>
-  <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yoga-laxh&layout=compact" />
-</p>
-<!-- Optional stats card with hidden commits; Top Langs reflects repo size, not skill level.  -->
-<!--
-<p>
-  <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=yoga-laxh&show_icons=true&hide=commits&cache_seconds=1800" />
-</p>
--->
+<!-- Inline SVG banner; safe and lightweight -->
+<div align="left">
+<svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Yogalakshmi — Data → Model → API → CI/CD</title>
+  <desc id="desc">A gradient card with a subtle grid and labeled pills for the end-to-end pipeline</desc>
+
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="white" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Card -->
+  <rect x="10" y="10" rx="18" ry="18" width="780" height="160" fill="url(#g)" filter="url(#softShadow)"/>
+  <rect x="10" y="10" rx="18" ry="18" width="780" height="160" fill="url(#grid)"/>
+
+  <!-- Headline -->
+  <text x="40" y="60" font-family="Inter, Segoe UI, Roboto, Arial" font-size="24" fill="white" opacity="0.95">
+    Shipping ML + systems: data → model → API → CI/CD
+  </text>
+  <text x="40" y="86" font-family="Inter, Segoe UI, Roboto, Arial" font-size="14" fill="white" opacity="0.85">
+    Focus: RAG, inference efficiency, MLOps, and a bit of CUDA
+  </text>
+
+  <!-- Pills -->
+  <g font-family="Inter, Segoe UI, Roboto, Arial" font-size="13" fill="#0b1220">
+    <!-- Data -->
+    <rect x="40" y="112" rx="14" ry="14" width="98" height="28" fill="white" opacity="0.95"/>
+    <text x="68" y="130" text-anchor="middle">Data</text>
+
+    <!-- Model -->
+    <rect x="152" y="112" rx="14" ry="14" width="110" height="28" fill="white" opacity="0.95"/>
+    <text x="207" y="130" text-anchor="middle">Model</text>
+
+    <!-- API -->
+    <rect x="276" y="112" rx="14" ry="14" width="96" height="28" fill="white" opacity="0.95"/>
+    <text x="324" y="130" text-anchor="middle">API</text>
+
+    <!-- CI/CD -->
+    <rect x="388" y="112" rx="14" ry="14" width="110" height="28" fill="white" opacity="0.95"/>
+    <text x="443" y="130" text-anchor="middle">CI/CD</text>
+
+    <!-- Inference -->
+    <rect x="512" y="112" rx="14" ry="14" width="124" height="28" fill="white" opacity="0.95"/>
+    <text x="574" y="130" text-anchor="middle">Inference</text>
+
+    <!-- MLOps -->
+    <rect x="650" y="112" rx="14" ry="14" width="104" height="28" fill="white" opacity="0.95"/>
+    <text x="702" y="130" text-anchor="middle">MLOps</text>
+  </g>
+</svg>
+</div>
 
 ---
 
